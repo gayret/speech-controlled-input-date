@@ -155,12 +155,3 @@ function parseTurkishDate(text) {
 
   return null // eşleşen bir şey yoksa
 }
-
-function formatDateHuman(date) {
-  return new Intl.DateTimeFormat('tr-TR', {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  }).format(date)
-}

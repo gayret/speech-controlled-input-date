@@ -2,3 +2,9 @@ body {
   font-family: sans-serif;
   padding: 0.5rem 2rem;
 }
+
+input,
+button {
+  font-size: 3.3rem;
+  margin: 1rem;
+}
